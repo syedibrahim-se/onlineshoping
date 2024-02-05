@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+/*nav-bars*/
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color:bisque;
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/*nav 2*/
+
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.logo1:hover{
+    color: #FEE647;
+    transition: 0.2s;
+}
+
+.logo2:hover{
+    color: #FEE647;
+    transition: 0.2s;
+}
+
+
+.txt-logo1{
+    background-color: #FEE647;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.icons .login a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons .login a:hover{
+    color: #FEE647;
+    transition: 0.2s;
+}
+
+.icons .register a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons .register a:hover{
+    color: #FEE647;
+    transition: 0.2s;
+}
+
+.inp-1 input{
+    padding: 6px 80px;
+}
+
+.inp-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-nv{
+    border: none;
+    padding: 8px 16px;
+    background-color: #3562BD;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/*nav 3*/
+
+.list-u{
+    padding: 15px 20px;
+    background-color:bisque;
+}
+
+.list-u ul{
+    display: flex;
+    gap: 50px;
+    list-style: none
+}
+
+.list-u ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.list-u ul li a:hover{
+    color: #3562BD;
+    transition: 0.2s;
+    
+}
+
+/*section Hero*/
+
+.hero{
+    margin-top: 20px;
+}
+
+.herodiv{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+.left-side{
+    width: 70%;
+    height: 78vh;
+}
+
+.right-side{
+    width: 25%;
+    height: 78vh;
+}
+
+.right-top{
+    height: 39vh;
+}
+
+.right-bottom{
+    height: 39vh;
+}
+
+/*section categories*/
+
+.categories{
+    margin-top: 150px;
+}
+
+.txt-cat{
+    font-size: 30px;
+    color: #3562BD;
+}
+
+.flex-cat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-1{
+    width: 32%;
+    height: 90vh;
+    
+}
+
+.txt-ct{
+    margin-bottom: 20px;
+}
+
+.middle-1{
+    width: 32%;
+    height: 90vh;
+}
+
+.m-top{
+    width: 100%;
+    height: 45vh;
+    
+}
+
+.right-1{
+    width: 32%;
+    background-color: brown;
+    height: 90vh;
+}
+
+/*section recent products*/
+
+.recent{
+    margin-top: 150px;
+}
+
+.flex-rcnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-1{
+    width: 24%;
+    height: 60vh;
+    padding: 10px;
+}
+
+
+.flex-rcnt1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-rcnt2 ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.flex-rcnt2 ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.txt-rct{
+    margin-top: 10PX;
+}
+
+/*section offers*/
+
+.offers{
+    margin-top: 150px;
+}
+
+.flex-ofr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.spl-1{
+    width: 30%;
+    height: 44.3vh;
+}
+
+.flex-ofr1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-ofr2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex-ofr2 ul{
+    list-style: none;
+}
+
+.flex-ofr2 ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/*section POPULAR PRODUCTS*/
+
+.popular{
+    margin-top: 150px;
+}
+
+.flex-plr{
+    margin-bottom: 30px;
+}
+
+.card-ofr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 32%;
+    height: 33vh;
+    padding: 10px;
+}
+
+.txt-rct1{
+    font-size: 12px;
+}
+
+.txt-rct2{
+    margin-top: 5PX;
+    font-size: 13px;
+    color: blue;
+    font-weight: bold;
+}
+
+/*section POPULAR Brands*/
+
+.brands{
+    margin-top: 150px;
+}
+
+.flex-brnd{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-brnd{
+    padding: 10px;
+    width: 20%;
+    height: 25vh;
+    background-color: #FFF2B5;
+}
+
+.b-logos{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.bs-logos{
+    margin-left: 40px;
+    
+}
+
+
+/*section Subscribe*/
+
+.subscribe{
+    margin-top: 150px;
+    padding: 70px;
+    background-color: #3562BD;
+}
+
+.subs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt-subs{
+    color: #FEE647;
+    font-size: 30px;
+    width: 70%;
+    font-weight: bold;
+}
+
+.inpt{
+    display: flex;
+    gap: 5px;
+}
+
+.inpt input{
+    padding: 12px 100px;
+}
+
+.subs-btn{
+    background-color: #FEE647;
+    border: none;
+    padding: 0px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*section contact*/
+
+.contact{
+    margin-top: 150px;
+}
+
+.cont{
+    margin-top: 30px;
+}
+
+.txt-c1{
+    font-size: 35px;
+    color: #3562BD;
+    text-align: center;
+}
+
+.txt-cnt{
+    font-size: 18px;
+    text-align: center;
+}
+
+.txt-cnt2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.txt-cnt3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.card-payt{
+    padding: 10px;
+    width: 20%;
+    height: 25vh;
+    line-height: 1.5em;
+}
+
+/*section payment*/
+
+.payment{
+    margin-top: 150px;
+}
+
+/*section footer*/
+
+.footer{
+    background-color:bisque;
+    padding: 25px;
+}
+
+.flex-foot{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+.s-logos{
+    margin-right: 15px;
+}
+
